@@ -1,5 +1,7 @@
 # 🎰 NX Raffle Party
 
+![Dashboard](lottrey-ui/public/dashboard.png)
+
 Hacker-style raffle draw app — green terminal UI, fair randomisation, one command to run.
 
 ---
