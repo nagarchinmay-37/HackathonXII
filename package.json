@@ -1,0 +1,28 @@
+{
+  "name": "lottery-system",
+  "version": "1.0.0",
+  "description": "Lottery Random Number Generator with Hacker UI",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "client": "cd lottery-ui && npm start",
+    "server": "node server.js",
+    "build": "cd lottery-ui && npm run build"
+  },
+  "keywords": [
+    "lottery",
+    "random",
+    "generator"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.4.2",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
